@@ -31,7 +31,7 @@ var connection = mysql.createConnection({
   user: "root",
 
   // Your password
-  password: "Lvc2344!6962",
+  password: "",
   database: "productsDB"
 });
 
@@ -89,7 +89,7 @@ var productSearch = function() {
    				 	console.log("Your order of "+ "'"+ custQuant + "'"+" " + "'"+results[i].product_name +"'"+ " "+ "totals: "+ "$"+ dollarTotalCost);
    				 	console.log("-----------------------------------------------------------------------------------")
    				 	var newStock=(results[i].stock_quantity-custQuant);
-            
+
             
             connection.query("UPDATE bamazonproducts SET ? WHERE ?",[{
               stock_quantity:newStock},{
