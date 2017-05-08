@@ -14,6 +14,7 @@ After the user enters in their selection, the inventory in our database is updat
 ![inventory final](https://cloud.githubusercontent.com/assets/22968949/25807476/f4823878-33d4-11e7-9ec2-9905bd694cc6.gif)
 
 If there is not sufficient inventory, the user is notified and prompted to make a new selection.
+![insufficient inventory](https://cloud.githubusercontent.com/assets/22968949/25808821/3129d6ce-33d9-11e7-8b0a-1572eff27590.gif)
 
 
 
