@@ -111,4 +111,3 @@ var productSearch = function() {
   });
  };
 
- 
